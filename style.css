@@ -3,7 +3,6 @@ body {
     padding: 0;
     background-image: url('background.jpg');
     background-size: cover;
-
     font-family: '微软雅黑', sans-serif;
 }
 
@@ -17,6 +16,7 @@ h1 {
 
 .card {
     background: rgba(119, 203, 206, 0.2);
+    /*磨砂效果*/
     backdrop-filter: blur(10px);
     border-radius: 20px;
     width: 400px;
@@ -90,5 +90,5 @@ h1 {
 
 .delete-btn:hover {
     color: #c0392b;
-    transform: scale(1.05);
+    transform: scale(1.09);
 }
